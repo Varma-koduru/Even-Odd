@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 360px;
+  width: 400px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 34px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.number-category {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #334155;
+}
+
+.increment-button {
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.content {
+  font-family: 'roboto';
+  font-size: 10px;
+  color: #334155;
+}
